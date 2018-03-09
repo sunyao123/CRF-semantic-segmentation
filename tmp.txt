@@ -1,0 +1,17 @@
+
+
+增加晶状体评价指标
+检查dice为什么小
+
+
+Fast organs locating on CT images by multi-classification convolutional neural network and anatomic knowledge
+3D Deeply Supervised Network for Automatic Liver Segmentation from CT Volumes
+
+￥￥￥
+FSL 
+
+我可以试一下哈，这篇论文我现在只研究了一下论文结构，内容还没有看，不知道我这水平能不能实现。老师您看这样行不行，您先让邓阳收集数据和先做着，前期看邓阳有啥问题，我辅助邓阳，我先把论文改好，这两天也一直在改论文。第二篇论文的数据准备的差不多了，我担心像分割这篇论文一样，时间隔的太久，又要重复一遍。
+
+我还不明确这学期怎么弄，公司让我先把这篇论文写完，还没说写完论文做什么
+
+因为现在只用U-net，和分类网络，我感觉知识面有些单一，不利于深度学习方面知识的提高。我打算先尝试新的分割网络（比如mask rcnn），之后看能不能把其它网络结构利用起来，比如lstm，和gan网络，这些网络很流行，但我还没有实际操作过。老师您怎么看
