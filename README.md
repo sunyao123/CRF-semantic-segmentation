@@ -1,4 +1,3 @@
-<br>
 # CRF-semantic-segmentation<br>
 使用CRF进行语义分割<br>
 
@@ -25,6 +24,5 @@ mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
 ```
-<br>
 
 
