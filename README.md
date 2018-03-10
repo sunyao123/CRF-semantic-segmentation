@@ -16,7 +16,7 @@ mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
 ```
-<br>
+
 2：观察每次KL_divergence;<br>
 ```
 crf.perform_step_inference(n)
@@ -24,7 +24,7 @@ mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
 ```
-<br>
+
 具体例子看examples<br>
 
 
