@@ -55,8 +55,8 @@ crf = crf_model.DenseCRF(
 # =============================================================================
 # Load image and probabilities
 # =============================================================================
-image = imread('/home/sy/桌面/条件随机场语义分割/pydensecrf-master/examples/im3.png')
-probabilities = imread('/home/sy/桌面/条件随机场语义分割/pydensecrf-master/examples/anno3.png')
+image = imread('./im.png')
+probabilities = imread('./label.png')
 
 # =============================================================================
 # Set the CRF model
