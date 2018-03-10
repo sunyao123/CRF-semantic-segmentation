@@ -5,9 +5,6 @@
 灰度图：使用2d。因为原始模块pydensecrf的2d模型里边函数addPairwiseBilateral()要求原图为rgb。<br>
 
 
-
-
-
 可以使用两种方式运行inference。<br>
 1：直接跑完指定循环;<br>
 ```
@@ -25,4 +22,7 @@ mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
 ```
+
+具体例子看examples<br>
+
 
