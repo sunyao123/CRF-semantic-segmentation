@@ -24,6 +24,7 @@ mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
 ```
+
 <br>
 具体例子看examples<br>
 
