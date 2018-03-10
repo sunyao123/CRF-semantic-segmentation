@@ -1,8 +1,7 @@
 # CRF-semantic-segmentation<br>
 使用CRF进行语义分割<br>
-[论文链接](https://arxiv.org/abs/1210.5644)
-python模块<br>
-https://github.com/lucasb-eyer/pydensecrf<br>
+[论文链接](https://arxiv.org/abs/1210.5644)<br>
+[python模块](https://github.com/lucasb-eyer/pydensecrf)<br>
 
 本模块调用pydensecrf，进行封装<br>
 彩图：可以使用1d，也可以使用2d。<br>
