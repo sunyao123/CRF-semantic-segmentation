@@ -1,6 +1,9 @@
 # CRF-semantic-segmentation<br>
 使用CRF进行语义分割<br>
+论文链接：<br>
 https://arxiv.org/abs/1210.5644
+python模块<br>
+https://github.com/lucasb-eyer/pydensecrf
 
 彩图：可以使用1d，也可以使用2d。<br>
 灰度图：使用2d。因为原始模块pydensecrf的2d模型里边函数addPairwiseBilateral()要求原图为rgb。<br>
