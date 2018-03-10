@@ -3,24 +3,28 @@
 使用CRF进行语义分割<br>
 
 彩图：可以使用1d，也可以使用2d。<br>
-灰度图：使用2d。因为原始模块pydensecrf的2d模型里边函数addPairwiseBilateral()要求原图为rgb。
+灰度图：使用2d。因为原始模块pydensecrf的2d模型里边函数addPairwiseBilateral()要求原图为rgb。<br>
 
 
 
 
 
-可以使用两种方式运行inference。
-1：直接跑完指定循环;
+可以使用两种方式运行inference。<br>
+1：直接跑完指定循环;<br>
+```
 crf.perform_inference(n)
 mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
-
-2：观察每次KL_divergence;
+```
+<br>
+2：观察每次KL_divergence;<br>
+```
 crf.perform_step_inference(n)
 mask = crf.segmentation_map
 plt.imshow(mask)
 plt.show()
-
+```
+<br>
 
 
